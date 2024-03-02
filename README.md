@@ -19,7 +19,7 @@ binarycalculator-deploy.yaml:
           app: binarycalc
       spec:
         containers:
-          - image: northamerica-northeast2-docker.pkg.dev/feisty-tempest-415720/sofe3980u/binarycalculator
+          - image: northamerica-northeast2-docker.pkg.dev/cogent-object-415822/sofe3890
             name: binarycalculator
             ports:
               - containerPort: 8080
